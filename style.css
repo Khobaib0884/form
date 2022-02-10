@@ -1,0 +1,141 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+.header__box{
+     height: 350px;
+     background-color: blueviolet;
+}
+.header__box img{
+     width: 100%;
+     height: 100%;
+}
+.header__title{
+     text-align: center;
+}
+.form__field{
+     min-height: 100vh;
+     background-color: green;
+     background-image: url(5f210a533185e7434d9efcab_heroimg.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+form{
+     
+     margin: 10px auto 0;
+}
+.field__container{
+     width: 400px;
+     background-color: rgba(255, 255, 255, 0.521);
+     margin: 0 auto;
+     padding: 25px;
+}
+.identity__field{
+     display: flex;
+     flex-direction: column;
+}
+.identity__field input{
+     padding: 10px;
+     margin-bottom: 5px;
+     outline: none;
+     border: 1px solid;
+}
+.identity__field> ::placeholder{
+     color: rgb(99, 97, 97);
+}
+
+.gender__box{
+     margin: 5px 0;
+}
+.gender__box p ,  .select__box p, .option__box p{
+     font-size: 20px;
+     margin-top: 5px;
+     margin-bottom: 3px;
+     font-weight: 600;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.gender__box input, .gender__box label, .option__box input, .option__box label{
+     cursor: pointer;
+}
+.gender__box label, .option__box label{
+     margin-right: 10px;
+     font-size: 17px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.select__box select{
+     width: 100%;
+     padding: 8px;
+     outline: none;
+}
+
+button{
+     width: 100%;
+     padding: 8px 0;
+     font-size: 15px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: 500;
+     border: none;
+     background-color: rgb(255, 214, 111);
+     cursor: pointer;
+     margin-top: 10px;
+}
+
+/* .ss{
+     color:brown; 
+     background-color: aquamarine;
+     border-top-left-radius: 15px;
+     border-bottom-right-radius: 15px;
+     cursor: pointer;
+}
+.ss:hover{
+     background-color: rgb(245, 247, 174);
+     transition: 0.3s ;
+     border:solid rgb(177, 45, 12);
+     border-top-right-radius: 10px;
+     border-top-left-radius:0px;
+     border-bottom-right-radius:0px;
+     border-bottom-left-radius:10px;
+}      */
+/* select{
+     border: solid rgb(145, 12, 12);
+     background-color: aqua;
+     color: rgb(109, 51, 143);
+     border-radius: 10px;
+}  
+select:hover{
+     color:rgb(116, 12, 72);
+     background-color: rgb(138, 236, 228);
+     transition: 0.5s;border-radius: 5px;
+} */
+/* .ff{
+     color: rgb(58, 6, 36);
+     background-color:aqua;
+     border:solid rgb(116,12,72);
+     margin-right: 1040px;padding-left:2px
+}
+.ff:hover{
+     background-color: rgb(222, 237, 247);
+     transition: 0.3s;
+     padding:1px;
+     margin-right: 1040px;
+     padding-left:2px;
+}     
+.gg{
+     color:rgb(100, 6, 64);
+     border:ridge rgb(129, 18, 74);
+     border-width:12px;
+     margin-right:900px;
+     padding-left:65px;
+     padding-right:20px
+} */
+
+#cricket{
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
